@@ -1,0 +1,5 @@
+input_data:
+    file: "../data/raw"
+
+output_data:
+    file: "../data/clean/.."
