@@ -1,6 +1,7 @@
 input_data:
   election_2017: "../data/raw/Wahlergebnisse/2017_Wahlergebnisse.csv"
   election_2021: "../data/raw/Wahlergebnisse/2021_Wahlergebnisse.csv"
+  election_2024: "../data/raw/Wahlergebnisse/2024_Wahlergebnisse.csv"
   election_2025: "../data/raw/Wahlergebnisse/2025_Wahlergebnisse.csv"
     
 
