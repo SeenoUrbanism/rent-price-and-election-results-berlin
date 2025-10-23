@@ -1,0 +1,20 @@
+
+name: venvp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - geopandas
+  - shapely
+  - pyproj
+  - folium
+  - plotly
+  - openpyxl
+  - jupyterlab

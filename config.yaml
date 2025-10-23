@@ -1,5 +1,10 @@
 input_data:
-    file: "../data/raw"
+  election_2017: "../data/raw/Wahlergebnisse/2017_Wahlergebnisse.csv"
+  election_2021: "../data/raw/Wahlergebnisse/2021_Wahlergebnisse.csv"
+  election_2025: "../data/raw/Wahlergebnisse/2025_Wahlergebnisse.csv"
+    
 
 output_data:
-    file: "../data/clean/.."
+    file1: "../data/clean/2017_Wahlergebnisse_cleaned.csv"
+    file2: "../data/clean/2021_Wahlergebnisse_cleaned.csv"
+    file3: "../data/clean/2025_Wahlergebnisse_cleaned.csv"
