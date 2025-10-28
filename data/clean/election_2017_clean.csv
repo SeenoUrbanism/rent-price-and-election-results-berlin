@@ -1,4 +1,4 @@
-bezirksname,wahlberechtigte_insgesamt,waehler,gueltige_stimmen,spd,cdu,gruene,fdp,afd,die_linke,wahlbeteiligung_%,spd_%,cdu_%,gruene_%,fdp_%,afd_%,die_linke_%,others_%
+bezirksname,wahlberechtigte_insgesamt,waehler,gueltige_stimmen,spd,cdu,gruene,fdp,afd,die_linke,wahlbeteiligung_prc,spd_prc,cdu_prc,gruene_prc,fdp_prc,afd_prc,die_linke_prc,others_prc
 Charlottenburg-Wilmersdorf,220328.0,173125.0,170911.0,47579.0,50826.0,22837.0,15476.0,13565.0,16233.0,78.58,27.84,29.74,13.36,9.06,7.94,9.5,2.57
 Friedrichshain-Kreuzberg,172386.0,133173.0,131738.0,21845.0,14850.0,37479.0,3865.0,6950.0,32212.0,77.25,16.58,11.27,28.45,2.93,5.28,24.45,11.03
 Lichtenberg,205300.0,149116.0,147072.0,20720.0,28905.0,8609.0,5018.0,23119.0,51249.0,72.63,14.09,19.65,5.85,3.41,15.72,34.85,6.43
