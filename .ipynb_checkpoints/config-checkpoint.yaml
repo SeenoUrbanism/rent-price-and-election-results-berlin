@@ -3,6 +3,10 @@ input_data:
   election_2021: "../data/raw/Wahlergebnisse/2021_Wahlergebnisse.csv"
   election_2024: "../data/raw/Wahlergebnisse/2024_Wahlergebnisse.csv"
   election_2025: "../data/raw/Wahlergebnisse/2025_Wahlergebnisse.csv"
+  rent_2017: "../data/raw/Rent_price/mietentwicklung_berlin_2016-17.xlsx"
+  rent_2021: "../data/raw/Rent_price/mietentwicklung_berlin_2020-21.xlsx"
+  rent_2025: "../data/raw/Rent_price/mietpreise_berlin_2025.xlsx"
+  economical: "../data/raw/Poverty/AfS_Tabellen_Sozialbericht_2024_BBB.xlsx"
     
 
 output_data:
