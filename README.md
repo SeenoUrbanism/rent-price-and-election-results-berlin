@@ -28,14 +28,14 @@ To explore whether housing market pressures (rent levels and rent growth) are as
 | Source | Data Type | Variables |
 |---------|------------|-----------|
 | **Federal Returning Officer (Bundeswahlleiter)** | Electoral data by constituency (2017–2025) | Vote shares per party, turnout |
-| **Berlin Open Data / Empirica / Immowelt** | Housing data | Rent level (€/m²), rent growth, year built, type |
-| **Amt für Statistik Berlin-Brandenburg** | Socio-economic | Income, unemployment, education level, migration |
+| **Berlin Open Data / Empirica / Immowelt** | Housing data | Rent level (€/m²), rent growth |
+| **Amt für Statistik Berlin-Brandenburg** | Socio-economic | Poverty, unemployment, Gini index |
 
 ### 2.2 Spatial Units  
 Define spatial units:  
 - **Option A:** Electoral constituencies (*Wahlkreise*) – ideal for matching election data.  
 - **Option B:** Boroughs (*Bezirke*) – coarser but easier to find socio-economic data.  
-- Adjust boundaries (e.g., through GIS or postal-code matching) to ensure temporal consistency from 2017–2025.
+- Adjust boundaries to ensure temporal consistency from 2017–2025.
 
 ### 2.3 Pre-Processing  
 - Convert rents to €/m² and calculate percentage change between years.  
@@ -59,7 +59,7 @@ Define spatial units:
    - Cluster constituencies based on housing and socio-economic profiles (e.g., K-Means or Hierarchical Clustering).
 
 ### 2.5 Visualization  
-- **Maps:** Rent change and vote-share change by constituency (using GeoPandas or Tableau).  
+- **Maps:** Rent change and vote-share change by constituency (using Tableau).  
 - **Scatter plots:** Rent change vs vote-share change.  
 - **Time series:** Trends from 2017–2025 for selected parties.  
 - **Regression plot:** Predicted vs observed vote-share changes.
@@ -71,7 +71,7 @@ Define spatial units:
 ### 3.1 Descriptive Insights  
 - Variation in rent growth across Berlin.  
 - Spatial pattern of party vote-share changes.  
-- Socio-economic contrasts between central and peripheral areas.
+- Socio-economic contrasts between different areas.
 
 ### 3.2 Analytical Insights  
 - Regression outputs showing which factors significantly predict vote-share shifts.  
@@ -91,8 +91,7 @@ Define spatial units:
 - Boundary mismatch between datasets.  
 - Missing or inconsistent rent data over time.  
 - Correlation ≠ causation — electoral shifts could reflect broader national trends.  
-- Possible extensions:  
-  - Include migration, age demographics, or new-build data.  
+- Possible extensions:    
   - Apply the same method to Hamburg or Munich.
 
 ---
@@ -105,6 +104,6 @@ Define spatial units:
 ---
 
 ## 7. Technical Stack  
-- **Data cleaning & analysis:** Python (Pandas, NumPy, GeoPandas, Statsmodels)  
+- **Data cleaning & analysis:** Python (Pandas, NumPy, Statsmodels)  
 - **Visualization:** Matplotlib, Seaborn, Tableau (for maps and dashboards)  
-- **Optional:** QGIS for map alignment; Scikit-learn for clustering.
+- **Optional:** (QGIS for map alignment); Scikit-learn for clustering.

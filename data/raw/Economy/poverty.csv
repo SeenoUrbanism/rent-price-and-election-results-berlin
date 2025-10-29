@@ -1,26 +1,14 @@
-"A1a I Armutsgefährdungsquoten der Bevölkerung1 2005 bis 2024 nach Berliner Bezirken und 
-           Brandenburger Kreisen und kreisfreien Städten",,,,,,,,,,,,,,,,,,,,,
-Ergebnisse des Mikrozensus,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,
-Region,,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020 1,2021²,2022,2023,2024³
-,,%,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,
-,Berlin,16.1,13.3,13.9,14.3,14.1,14.2,15.5,15.2,15,14.1,15.3,16.6,17.4,16.5,17.8,19,19.6,18.5,19.7,19.1
-,Mitte,23.1,20.2,21.6,21.7,23.1,18.6,22.2,19.1,20.8,18.5,20.4,24.8,25.6,20.2,23.3,x,27.2,23.2,23.7,24
-,Friedrichshain-Kreuzberg,21.8,18.5,21.5,22.8,21.1,21.3,20.6,20.9,18.2,18.5,17.4,19.7,18,17,19.8,x,19.3,17.8,19,21
-,Pankow,13,9.2,10,11.9,9.6,10.4,11.1,10.2,9.1,6.9,8.9,6.4,6.8,6.7,8.4,x,12.1,11.8,12.6,14.4
-,Charlottenburg-Wilmersdorf,16.1,12,13.9,12.5,12.1,12.2,14.5,14.1,14.5,14.8,14.7,15.4,17.4,15.7,16.1,x,17.1,14,17.7,18.1
-,Spandau,15.7,13.7,14.4,12,14.5,16.2,17.1,17.3,18.6,18.6,18.4,23.2,24.1,24.3,23.6,x,22.4,20.9,19.2,20
-,Steglitz-Zehlendorf,10.3,6.2,5.3,5.2,7.6,8.6,9.4,9,8.6,7.8,8.4,10.5,11.1,11.1,10.2,x,15.5,15.8,14.3,13.7
-,Tempelhof-Schöneberg,16.3,12.6,13.9,15.8,12.2,12.4,14,14,13.6,12.5,15.8,17.7,17.4,15.6,16.6,x,20.5,17.9,21.4,17.7
-,Neukölln,21.8,19.8,17.3,20.3,21.1,22.5,23.5,24,22.2,21.5,25.3,26.8,26.2,27.4,29.2,x,31.4,30.4,26.3,24.4
-,Treptow-Köpenick,9.2,8.6,8.7,8,9.4,10,9.3,11.8,10.5,9.9,9.2,10.5,12.7,11.3,12.2,x,12.7,14.2,16.6,14.4
-,Marzahn-Hellersdorf,14,13.9,14,16.6,15.6,15.6,16,15.4,15.4,13.9,15.7,16.5,17.3,16.8,18.1,x,17.8,19.6,19.6,16.8
-,Lichtenberg,16.4,13.8,11.9,11.9,11.1,11.9,14.5,12.5,13.9,13.7,15.6,14.4,17.3,18.1,19.9,x,18.1,19.6,26.2,25.2
-,Reinickendorf,13.3,10,12.2,10.4,11.3,12.5,12.4,14.7,15.6,13.1,13.6,15.5,15.5,16.9,19,x,21.6,18.8,21.8,20.7
-,,,,,,,,,,,,,,,,,,,,,
-_____,,,,,,,,,,,,,,,,,,,,,
-"1 Die Ergebnisse des Mikrozensus ab dem Erhebungsjahr 2020 sind durch methodische Veränderungen nur eingeschränkt mit den früheren Erhebungsjahren vergleichbar. Das Erhebungsjahr 2020 und teils auch das Erhebungsjahr 2021 sind zudem von Einschränkungen bei der Erhebung betroffen und sollten auch für Zeitvergleiche mit den Folgejahren nur eingeschränkt verwendet werden. Aufgrund dieser Einschränkungen, verbunden mit größerer statistischer Unsicherheit, können die Ergebnisse der Berliner Bezirke und Brandenburger Kreise für 2020 leider nicht veröffentlicht werden. ",,,,,,,,,,,,,,,,,,,,,
-2 ab 2021 Hochrechnung nach Fortschreibung/Rückrechnung Zensus 2022,,,,,,,,,,,,,,,,,,,,,
-3 Erstergebnis,,,,,,,,,,,,,,,,,,,,,
+,2016,2017,2018,2019,2021,2022,2023,2024
+Berlin,16.6,17.4,16.5,17.8,19.6,18.5,19.7,19.1
+Mitte,24.8,25.6,20.2,23.3,27.2,23.2,23.7,24
+Friedrichshain-Kreuzberg,19.7,18,17,19.8,19.3,17.8,19,21
+Pankow,6.4,6.8,6.7,8.4,12.1,11.8,12.6,14.4
+Charlottenburg-Wilmersdorf,15.4,17.4,15.7,16.1,17.1,14,17.7,18.1
+Spandau,23.2,24.1,24.3,23.6,22.4,20.9,19.2,20
+Steglitz-Zehlendorf,10.5,11.1,11.1,10.2,15.5,15.8,14.3,13.7
+Tempelhof-Schoeneberg,17.7,17.4,15.6,16.6,20.5,17.9,21.4,17.7
+Neukoelln,26.8,26.2,27.4,29.2,31.4,30.4,26.3,24.4
+Treptow-Koepenick,10.5,12.7,11.3,12.2,12.7,14.2,16.6,14.4
+Marzahn-Hellersdorf,16.5,17.3,16.8,18.1,17.8,19.6,19.6,16.8
+Lichtenberg,14.4,17.3,18.1,19.9,18.1,19.6,26.2,25.2
+Reinickendorf,15.5,15.5,16.9,19,21.6,18.8,21.8,20.7

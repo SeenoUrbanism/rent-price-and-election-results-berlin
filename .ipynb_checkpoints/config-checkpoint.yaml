@@ -1,8 +1,8 @@
 input_data:
-  election_2017: "../data/raw/Wahlergebnisse/2017_Wahlergebnisse.csv"
-  election_2021: "../data/raw/Wahlergebnisse/2021_Wahlergebnisse.csv"
-  election_2024: "../data/raw/Wahlergebnisse/2024_Wahlergebnisse.csv"
-  election_2025: "../data/raw/Wahlergebnisse/2025_Wahlergebnisse.csv"
+  election_2017: "../data/raw/Election/2017_Election.csv"
+  election_2021: "../data/raw/Election/2021_Election.csv"
+  election_2024: "../data/raw/Election/2024_Election.csv"
+  election_2025: "../data/raw/Election/2025_Election.csv"
   rent_2017: "../data/raw/Rent_price/mietentwicklung_berlin_2016-17.xlsx"
   rent_2021: "../data/raw/Rent_price/mietentwicklung_berlin_2020-21.xlsx"
   rent_2025: "../data/raw/Rent_price/mietpreise_berlin_2025.xlsx"
