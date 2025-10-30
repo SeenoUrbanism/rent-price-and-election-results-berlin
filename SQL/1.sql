@@ -1,53 +1,32 @@
-
-create DATABASE if not exists final_proj
-	character set utf8mb4
-    collate utf8mb4_unicode_ci;
-USE final_proj;
-SHOW TABLES;
-SELECT COUNT(*) FROM armut_raw;
-DESCRIBE armut_raw;
-DROP TABLE armut_raw;
-describe gini;
-DROP TABLE election_2017_clean;
-
-SHOW VARIABLES LIKE 'local_infile';
-SET GLOBAL local_infile = 1;
-OPT_LOCAL_INFILE=1;
-
-
-
-
-SHOW COLUMNS FROM election_2017_clean;
-SHOW COLUMNS FROM election_2021_clean;
-SHOW COLUMNS FROM election_2025_clean;
-CREATE TABLE election_2017_clean (
-    bezirksname VARCHAR(100),
-    wahlberechtigte_insgesamt INT,
-    waehler INT,
-    gueltige_stimmen INT,
-    spd INT,
-    cdu INT,
-    greens INT,
-    fdp INT,
-    afd INT,
-    lefts INT,
-    others INT,
-    turnout_pct DECIMAL(5,2),
-    spd_pct DECIMAL(5,2),
-    cdu_pct DECIMAL(5,2),
-    greens_pct DECIMAL(5,2),
-    fdp_pct DECIMAL(5,2),
-    afd_pct DECIMAL(5,2),
-    lefts_pct DECIMAL(5,2),
-    others_pct DECIMAL(5,2)
-);
-
-LOAD DATA LOCAL INFILE 'C:/Users/Sina A.Y/documents/ironhack/rent-price-and-election-results-berlin/data/clean/election_2017_clean.csv'
-INTO TABLE election_2017_clean
-CHARACTER SET latin1
-FIELDS TERMINATED BY ';'
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
-
-
+use final_proj_new;
+SHOW COLUMNS FROM election_2021;
+SHOW COLUMNS FROM rent_growth_2021;
+SHOW COLUMNS FROM gini_index;
+# alter the column name
+alter table election_2017 rename column bezirksname to district;
+alter table election_2021 rename column bezirksname to district;
+alter table election_2025 rename column bezirksname to district;
+# for election_2025
+ALTER TABLE election_2025
+CHANGE waehler voter int,
+change wahlbeteiligung_prc turnout_prc int,
+CHANGE wahlberechtigte_insgesamt eligible_voters double,
+CHANGE gueltige_stimmen valid_votes double;
+# for election_2021
+ALTER TABLE election_2021
+CHANGE waehler voter int,
+change wahlbeteiligung_prc turnout_prc int,
+CHANGE wahlberechtigte_insgesamt eligible_voters double,
+CHANGE gueltige_stimmen valid_votes double;
+# for election_2017
+ALTER TABLE election_2017
+CHANGE waehler voter int,
+change wahlbeteiligung_prc turnout_prc int,
+CHANGE wahlberechtigte_insgesamt eligible_voters double,
+CHANGE gueltige_stimmen valid_votes double;
+# for gini_index
+ALTER TABLE gini_index
+  CHANGE `unnamed_1` `district` VARCHAR(255),
+  CHANGE `unnamed_14` `2017` FLOAT,
+  CHANGE `unnamed_18` `2021` FLOAT,
+  CHANGE `unnamed_21` `2025` FLOAT;
